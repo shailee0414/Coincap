@@ -1,0 +1,17 @@
+.nav-sm {
+    display: none;
+  }
+  .nav-lg {
+    display: flex;
+    flex: 1;
+  }
+  
+  @media (max-width: 775px) {
+    .nav-sm {
+      display: flex;
+      flex: 1;
+    }
+    .nav-lg {
+      display: none;
+    }
+  }
